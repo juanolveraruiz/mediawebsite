@@ -19,3 +19,16 @@ body {
     color: var(--md-fill);
     background-color: var(--md-border);
 }
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li {
+    float: left;
+}
