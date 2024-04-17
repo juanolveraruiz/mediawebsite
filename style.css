@@ -1,3 +1,7 @@
+:root {
+    --md-fill: #667CE0;
+    --md-border: #0B1D6F;
+}
 body {
     display: flex;
     justify-content: center;
@@ -10,4 +14,8 @@ body {
     padding: 15px;
     display: block;
     text-align: center;
+}
+.navbar a:hover {
+    color: var(--md-fill);
+    background-color: var(--md-border);
 }
